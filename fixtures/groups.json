@@ -1,0 +1,14 @@
+{
+  "groups": [
+    {"email": "all@acme.example", "owners": ["it-ops@acme.example"], "members": ["eng@acme.example", "gtm@acme.example", "ops@acme.example", "avery@acme.example"]},
+    {"email": "eng@acme.example", "owners": ["blake@acme.example"], "members": ["backend@acme.example", "frontend@acme.example"]},
+    {"email": "backend@acme.example", "owners": ["blake@acme.example"], "members": ["drew@acme.example", "kai@acme.example"]},
+    {"email": "frontend@acme.example", "owners": [], "members": ["harper@acme.example", "jordan@acme.example"]},
+    {"email": "gtm@acme.example", "owners": ["morgan@acme.example"], "members": ["sales@acme.example", "marketing@acme.example"]},
+    {"email": "sales@acme.example", "owners": ["morgan@acme.example"], "members": ["logan@acme.example", "morgan@acme.example", "partners-external@vendor.example"]},
+    {"email": "marketing@acme.example", "owners": ["morgan@acme.example"], "members": []},
+    {"email": "ops@acme.example", "owners": ["casey@acme.example"], "members": ["finance@acme.example"]},
+    {"email": "finance@acme.example", "owners": ["casey@acme.example"], "members": ["ops@acme.example", "gray@acme.example"]},
+    {"email": "legacy-2019@acme.example", "owners": [], "members": []}
+  ]
+}

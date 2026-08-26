@@ -1,0 +1,11 @@
+{
+  "as_of_note": "credential_created dates are fixture data; the auditor flags age against the rotation policy",
+  "leavers": ["emerson@acme.example", "riley@acme.example"],
+  "apps": [
+    {"name": "PagerDuty", "installed_by": "casey@acme.example", "credential_created": "2026-06-01", "scopes": ["chat:write", "channels:read"], "last_used": "2026-08-25"},
+    {"name": "Figma", "installed_by": "harper@acme.example", "credential_created": "2025-11-12", "scopes": ["chat:write", "files:read"], "last_used": "2026-08-24"},
+    {"name": "LegacyStandupBot", "installed_by": "riley@acme.example", "credential_created": "2024-05-20", "scopes": ["chat:write", "channels:history", "users:read", "groups:history"], "last_used": "2026-01-15"},
+    {"name": "Gong", "installed_by": "morgan@acme.example", "credential_created": "2026-02-28", "scopes": ["chat:write", "channels:read", "users:read"], "last_used": "2026-08-23"},
+    {"name": "DataExporter", "installed_by": "emerson@acme.example", "credential_created": "2025-08-01", "scopes": ["files:read", "channels:history", "im:history", "users:read.email"], "last_used": "2026-07-30"}
+  ]
+}

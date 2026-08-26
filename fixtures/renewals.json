@@ -1,0 +1,9 @@
+{
+  "renewals": [
+    {"app": "Gong", "renewal_date": "2026-10-15", "term_months": 12, "seats_contracted": 8, "unit_cost_monthly": 110.0, "notice_days": 60, "vendor_csm": "csm@gong.example"},
+    {"app": "Figma", "renewal_date": "2026-11-30", "term_months": 12, "seats_contracted": 6, "unit_cost_monthly": 45.0, "notice_days": 30, "vendor_csm": "renewals@figma.example"},
+    {"app": "Zoom", "renewal_date": "2027-02-01", "term_months": 12, "seats_contracted": 10, "unit_cost_monthly": 21.99, "notice_days": 30, "vendor_csm": "success@zoom.example"},
+    {"app": "Notion", "renewal_date": "2026-09-20", "term_months": 12, "seats_contracted": 8, "unit_cost_monthly": 18.0, "notice_days": 30, "vendor_csm": "team@notion.example"},
+    {"app": "PagerDuty", "renewal_date": "2026-12-10", "term_months": 24, "seats_contracted": 4, "unit_cost_monthly": 41.0, "notice_days": 90, "vendor_csm": "csm@pagerduty.example"}
+  ]
+}

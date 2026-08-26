@@ -1,0 +1,8 @@
+{
+  "audit": "SOC 2 Type II FY2026",
+  "requests": [
+    {"id": "CC6.1-04", "description": "Quarterly access review: in-scope app admin rosters", "source": "access-reviews", "files": ["q3-admin-roster-zoom.csv", "q3-admin-roster-gong.csv"]},
+    {"id": "CC6.2-01", "description": "Offboarding evidence: leaver deprovisioning within SLA", "source": "lifecycle", "files": ["leaver-deprovision-log-aug.csv"]},
+    {"id": "CC7.2-03", "description": "License reconciliation: contracted vs provisioned seats", "source": "seat-reports", "files": ["seat-utilization-latest.md"]}
+  ]
+}

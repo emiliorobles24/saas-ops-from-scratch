@@ -1,0 +1,15 @@
+{
+  "_comment": "The group register: every group is created THROUGH an intake form (purpose, temporary or permanent, owner) and lands here. The hygiene auditor checks reality against this register, so 'why does this group exist' always has an answer on file.",
+  "register": [
+    {"email": "all@acme.example", "purpose": "Company-wide announcements", "temporary": false, "manager": "it-ops@acme.example"},
+    {"email": "eng@acme.example", "purpose": "Engineering org umbrella", "temporary": false, "manager": "blake@acme.example"},
+    {"email": "backend@acme.example", "purpose": "Backend team list", "temporary": false, "manager": "blake@acme.example"},
+    {"email": "frontend@acme.example", "purpose": "Frontend team list", "temporary": false, "manager": "harper@acme.example"},
+    {"email": "gtm@acme.example", "purpose": "Go-to-market umbrella", "temporary": false, "manager": "morgan@acme.example"},
+    {"email": "sales@acme.example", "purpose": "Sales team + partner comms", "temporary": false, "manager": "morgan@acme.example"},
+    {"email": "marketing@acme.example", "purpose": "Marketing team list", "temporary": false, "manager": "morgan@acme.example"},
+    {"email": "ops@acme.example", "purpose": "Business operations umbrella", "temporary": false, "manager": "casey@acme.example"},
+    {"email": "finance@acme.example", "purpose": "Finance team list", "temporary": false, "manager": "casey@acme.example"},
+    {"email": "launch-q3@acme.example", "purpose": "Q3 launch war room", "temporary": true, "expires": "2026-08-01", "manager": "jordan@acme.example"}
+  ]
+}
