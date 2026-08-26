@@ -1,0 +1,12 @@
+{
+  "app": "Figma",
+  "unit_cost_monthly": 45.0,
+  "plan": "Organization",
+  "seats": [
+    {"email": "avery@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "harper@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "casey@acme.example", "last_login": "2026-02-14", "status": "active"},
+    {"email": "jordan@acme.example", "last_login": "2026-07-01", "status": "active"},
+    {"email": "emerson@acme.example", "last_login": "2026-01-09", "status": "suspended"}
+  ]
+}

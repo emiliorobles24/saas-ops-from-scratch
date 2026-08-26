@@ -1,0 +1,14 @@
+{
+  "app": "Zoom",
+  "unit_cost_monthly": 21.99,
+  "plan": "Business",
+  "seats": [
+    {"email": "avery@acme.example", "last_login": "2026-08-24", "status": "active"},
+    {"email": "blake@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "casey@acme.example", "last_login": "2026-05-02", "status": "active"},
+    {"email": "drew@acme.example", "last_login": "2026-08-20", "status": "active"},
+    {"email": "emerson@acme.example", "last_login": "2026-03-11", "status": "suspended"},
+    {"email": "finley@acme.example", "last_login": "2026-08-22", "status": "active"},
+    {"email": "gray@acme.example", "last_login": "2026-06-30", "status": "active"}
+  ]
+}

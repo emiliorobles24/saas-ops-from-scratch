@@ -1,0 +1,15 @@
+{
+  "app": "Notion",
+  "unit_cost_monthly": 18.0,
+  "plan": "Business",
+  "seats": [
+    {"email": "avery@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "blake@acme.example", "last_login": "2026-08-24", "status": "active"},
+    {"email": "casey@acme.example", "last_login": "2026-08-19", "status": "active"},
+    {"email": "drew@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "harper@acme.example", "last_login": "2026-08-18", "status": "active"},
+    {"email": "jordan@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "kai@acme.example", "last_login": "2026-08-22", "status": "active"},
+    {"email": "riley@acme.example", "last_login": "2025-12-02", "status": "active"}
+  ]
+}

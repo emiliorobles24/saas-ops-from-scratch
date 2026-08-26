@@ -1,0 +1,13 @@
+{
+  "app": "Gong",
+  "unit_cost_monthly": 110.0,
+  "plan": "Enterprise",
+  "seats": [
+    {"email": "blake@acme.example", "last_login": "2026-08-21", "status": "active"},
+    {"email": "drew@acme.example", "last_login": "2026-04-18", "status": "active"},
+    {"email": "harper@acme.example", "last_login": "2026-08-24", "status": "active"},
+    {"email": "kai@acme.example", "last_login": "2026-08-25", "status": "active"},
+    {"email": "logan@acme.example", "last_login": "2026-03-30", "status": "active"},
+    {"email": "morgan@acme.example", "last_login": "2026-08-23", "status": "active"}
+  ]
+}
