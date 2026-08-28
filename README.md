@@ -102,6 +102,9 @@ saas-ops-from-scratch/
 
 ## The 30/60/90: standing the lane up from day one
 
+> The full four-quarter version, day 1 through month 12, with the JD-by-JD fit
+> map: **[FIRST-YEAR-PLAN.md](FIRST-YEAR-PLAN.md)**.
+
 **Days 1-30: learn the estate, write nothing clever.**
 Inventory every app, owner, contract, and admin credential. Shadow the support
 queue and tag every escalation with the intake taxonomy. Build the renewal
