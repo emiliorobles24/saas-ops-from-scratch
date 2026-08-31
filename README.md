@@ -103,7 +103,9 @@ saas-ops-from-scratch/
 ## The 30/60/90: standing the lane up from day one
 
 > The full four-quarter version, day 1 through month 12, with the JD-by-JD fit
-> map: **[FIRST-YEAR-PLAN.md](FIRST-YEAR-PLAN.md)**.
+> map: **[FIRST-YEAR-PLAN.md](FIRST-YEAR-PLAN.md)**. The evidence behind it, how
+> GitLab, Adobe, Spotify, Block, and the frontier labs actually run this lane,
+> with vendor bias flagged and contradictions kept: **[FIELD-GUIDE.md](FIELD-GUIDE.md)**.
 
 **Days 1-30: learn the estate, write nothing clever.**
 Inventory every app, owner, contract, and admin credential. Shadow the support

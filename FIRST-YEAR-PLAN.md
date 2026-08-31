@@ -43,10 +43,11 @@ What it stands up, restated as the processes that exist by day 90:
    same-day in this lane; platform-level work routes to IT Engineering with context
    attached. The taxonomy is also the automation backlog: whatever repeats, ranks.
 3. **The renewal calendar** ([`runbook/renewal-calendar.md`](runbook/renewal-calendar.md)):
-   built from the contracts themselves in month one, then run on the T-90/T-60/T-30
-   cadence with notice deadlines tracked separately from renewal dates (the notice
-   deadline is the one that actually bites). [`automations/renewal_radar.py`](automations/renewal_radar.py)
-   is the working model.
+   built from the contracts themselves in month one, then run on a T-120/T-90/T-60/T-30
+   cadence keyed to NOTICE deadlines, not renewal dates (the notice deadline is the
+   one that actually bites, and the negotiation-timing evidence says the earliest
+   month is where the savings live: see [FIELD-GUIDE.md](FIELD-GUIDE.md)).
+   [`automations/renewal_radar.py`](automations/renewal_radar.py) is the working model.
 4. **The first utilization report, by hand** ([`automations/seat_report.py`](automations/seat_report.py)
    is the automated version): run manually first to learn where each platform's
    truth lives (Gong seat data, 1Password provisioning state, MongoDB org members,
@@ -109,6 +110,11 @@ automations run on schedule, and the KPI dashboard (below) exists.
 13. **Access-review execution as a playbook**: when access reviews run, this lane
     executes them on schedule: pull the rosters, chase the sign-offs, deliver the
     artifacts, log the removals. The playbook makes review N+1 cheaper than review N.
+13b. **Deprovisioning verification loops**: SCIM fails silently, so "the IdP says
+    removed" and "the app says removed" are different facts, and auditors sample
+    the second one. Post-offboarding jobs query each connected app's API to confirm
+    the account actually died; the long tail outside the IdP gets scheduled
+    reconciliation instead.
 14. **Non-human identity lifecycle**: by month nine, every service account, API
     token, and automation credential in the lane's estate has an owner, a scope, a
     creation record, and an expiry: the same joiner-mover-leaver discipline humans
@@ -122,7 +128,9 @@ automations run on schedule, and the KPI dashboard (below) exists.
     the right jobs for AI here (judgment stays human, wrong answers are cheap and
     visible). Provisioning, deprovisioning, and anything touching access stay
     deterministic. Using AI tools for productivity is part of the JD; using them
-    with this ordering is what makes that safe.
+    with this ordering is what makes that safe. And any AI layer that reports a
+    deflection number uses the strict definition: fully resolved, no human touch,
+    no reopen within 72 hours: honest measurement before impressive measurement.
 
 **Month-9 exit criteria:** one full audit cycle (or dry-run at full fidelity) has
 run through the calendar without a fire drill, and the NHI register is complete.
