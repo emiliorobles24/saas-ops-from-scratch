@@ -195,5 +195,7 @@ the menus are the easy part.
 
 *Everything in this repo runs against fixtures with zero API keys, and CI gates
 every push. The plan is the system; the automations are its working parts;
-the runbooks are how someone else operates it. That is the standard I hold
-infrastructure to, and the standard I would bring to this seat.*
+the runbooks are how someone else operates it; and [SAFETY.md](SAFETY.md) is
+the rulebook for how any of it is allowed to act: every automation in this plan
+sits at a declared Autonomy Level and earns promotion with evidence. That is
+the standard I hold infrastructure to, and the standard I would bring to this seat.*

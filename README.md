@@ -106,6 +106,8 @@ saas-ops-from-scratch/
 > map: **[FIRST-YEAR-PLAN.md](FIRST-YEAR-PLAN.md)**. The evidence behind it, how
 > GitLab, Adobe, Spotify, Block, and the frontier labs actually run this lane,
 > with vendor bias flagged and contradictions kept: **[FIELD-GUIDE.md](FIELD-GUIDE.md)**.
+> And how the lane changes things without breaking them, including the Autonomy
+> Levels every automation must climb before it may act: **[SAFETY.md](SAFETY.md)**.
 
 **Days 1-30: learn the estate, write nothing clever.**
 Inventory every app, owner, contract, and admin credential. Shadow the support
