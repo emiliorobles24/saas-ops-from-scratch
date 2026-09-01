@@ -100,6 +100,22 @@ saas-ops-from-scratch/
    estate is a fleet of non-human identities and deserves the same lifecycle
    discipline as the human ones.
 
+## The values under the hood
+
+The principles above are the HOW. These are the WHY: commitments borrowed from
+the companies doing the most serious work on operating AI safely, translated
+into what they mean for an IT operations lane. Each one is enacted somewhere
+concrete in this repo, not just claimed.
+
+| Commitment | What it means in this lane | Where it's real |
+|---|---|---|
+| **Hold optimism and risk at once** | Adopt AI aggressively where wrong answers are cheap; govern it strictly where they aren't. Enthusiasm and guardrails are the same posture, not opposites | The AI ordering in [SAFETY.md](SAFETY.md); the deterministic-first principle above; the [field guide](FIELD-GUIDE.md) keeping vendor contradictions instead of averaging them away |
+| **Be good to your users** | "Users" defined broadly: the person with the ticket, the teammate covering the lane next, the auditor pulling evidence, anyone the systems touch. Plain language, no acronym walls, nobody made to feel dumb for asking | The intake taxonomy's user-facing design; the enablement-first migration pattern; every runbook written for the next reader |
+| **Make the safe path the easy path** | Governance wins by being more convenient than the workaround, never by decree. If the intake form is slower than a credit card, sprawl wins | Governance-at-creation intake forms; the vetted self-service catalog pattern; the register the automations check forever after |
+| **Do the simple thing that works** | Boring, auditable, standard-library solutions before clever ones: a bicycle when a bicycle is what's needed, never a spaceship. A deterministic script anyone can read beats an impressive system nobody can debug | Every automation here: stdlib Python, fixtures, one ingestion function, CI-gated |
+| **Helpful, honest, harmless** | Helpful: deflect work only when it's truly resolved. Honest: strict-definition metrics, published even when unflattering. Harmless: least privilege, read-only by default, blast radius named before every change | The strict deflection definition; the Autonomy Levels; the read-only credential pattern in [okta-as-code's CLI](https://github.com/emiliorobles24/okta-as-code/tree/main/cli) |
+| **No bystanders** | If it urgently needs doing and it's in this lane, the right person is probably you: same-day, no ticket ping-pong. If it belongs to another owner, it's routed WITH context and followed until landed, never dropped between teams | The operate-vs-change boundary in [`runbook/intake.md`](runbook/intake.md): fast ownership on one side, accountable routing on the other |
+
 ## The 30/60/90: standing the lane up from day one
 
 > The full four-quarter version, day 1 through month 12, with the JD-by-JD fit
