@@ -179,6 +179,7 @@ UPGRADED the plan, adopted and noted transparently:
 **Year two:**
 - The consolidated intake gate (Snowflake/Coinbase pattern), wired so approval CREATES the registry record.
 - Continuous policy-driven license optimization: portfolio-wide idle thresholds, downgrade tiers, AI-consumption caps per department, reclaim-before-buy as standing policy.
+- The SMP buy-vs-build decision, run properly: triggers, criteria, and a weighted shortlist (section 4b), with the homegrown reports as the bake-off acceptance test.
 - An AI tier-zero support layer over internal knowledge, instrumented honestly from day one.
 - Exception-driven access reviews (enriched context, auto-certify the role-aligned and recently-used, humans on anomalies only).
 - Showback of SaaS + AI spend to business units: the only durable lever on the 70-81% of spend IT does not control.
@@ -188,6 +189,45 @@ UPGRADED the plan, adopted and noted transparently:
 - **MCP governance**: a curated allowlist of approved servers with security-review intake, a gateway as the single enforcement point, and read-only vs destructive tool annotation. Block proved the model at 12,000 employees; the incident record says this arrives as a postmortem if not built proactively.
 - **Agentic assistants for the lane's own grind**: first-pass ticket triage, license reconciliation, renewal-prep briefs, evidence collection, always with human sign-off, in line with how Anthropic and Figma actually run theirs: supervised, scoped, measured.
 - **Shadow-AI absorption**: expense-line and OAuth mining for AI tools, migration of personal-account usage into enterprise tenants, an approved catalog, and spend caps. An account-governance and FinOps problem, not a blocking problem.
+
+---
+
+## 4b · Buy vs build: the license and vendor management platform question
+
+The automations in this repo are the BUILD side: seat reports, renewal radar,
+evidence packs, running keyless against fixtures, and their real-mode versions
+cover a small-to-mid estate for the cost of maintenance. The honest trigger
+list for when to BUY a SaaS management platform (SMP) instead:
+
+- Renewals arriving faster than a calendar-and-radar motion can hold (the
+  enterprise average is roughly one per business day).
+- Discovery needs exceed what SSO logs + expense mining reveal (the 30-40% of
+  apps living outside the IdP).
+- Finance wants chargeback/showback at a fidelity homegrown reporting can't sustain.
+- Audit evidence is still manual at scale (the strongest trigger of the four:
+  manual evidence collection is where audit risk and staff burnout actually live).
+
+**The shortlist, weighted for a fast-growing, audit-serious, IT-lean company
+(criteria: discovery depth, license/renewal workflows incl. budgets, automation,
+fit with an existing stack):**
+
+| Rank | Platform | Why it makes the top 3 | The honest caveat |
+|---|---|---|---|
+| 1 | **Zylo** | The enterprise benchmark SMP: deepest spend and utilization data in the industry, a real renewal calendar with workflows, and the license-management motion (discovery → utilization → reclaim → renewal prep) as a first-class product. Best when finance-grade spend truth is the driver | Enterprise pricing; its published waste statistics are also its marketing |
+| 2 | **Torii** | Automation-first: broadest discovery layering, offboarding and license workflows a lean IT team can run without a dedicated admin. Best when the team is small and the estate is sprawling | Its "apps discovered" numbers flatter its own method; workflow depth beats reporting depth |
+| 3 | **1Password (Trelica)** | The situational pick: SMP capability from the Trelica acquisition, now a Gartner MQ leader, and if 1Password already runs in the estate, one vendor covers credentials AND SaaS management, one less procurement cycle, one less integration to govern | Younger as an SMP than Zylo/Torii; evaluate the SaaS-ops depth, not the brand familiarity |
+
+Worth a look but off the podium: **Tropic/Vendr** if the pain is the BUYING
+motion (negotiation, approvals, budget workflows) more than discovery;
+**BetterCloud** if the need is SaaS operations automation more than spend;
+**Vertice** as negotiation-as-a-service on top of whatever manages the estate.
+
+**The stance this repo takes:** run the build layer first, for a quarter or two.
+It costs nearly nothing, it forces the team to learn where the data actually
+lives, and it produces the usage truth that makes any later SMP purchase
+negotiable from evidence instead of from a vendor's demo. Then buy when the
+triggers above are real, and bring the homegrown reports to the bake-off as
+the acceptance test: any platform worth paying for should beat them on day one.
 
 ---
 
