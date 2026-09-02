@@ -222,6 +222,12 @@ motion (negotiation, approvals, budget workflows) more than discovery;
 **BetterCloud** if the need is SaaS operations automation more than spend;
 **Vertice** as negotiation-as-a-service on top of whatever manages the estate.
 
+**A lived data point behind this section:** I ran a paid negotiation platform of
+this class in production for about a year. It genuinely helped the renewal
+motion, and it was ultimately dropped on cost, because at our scale the fee
+stopped beating what our homegrown usage truth already delivered. The trigger
+list above isn't theory; it's the lesson of having bought, used, and un-bought one.
+
 **The stance this repo takes:** run the build layer first, for a quarter or two.
 It costs nearly nothing, it forces the team to learn where the data actually
 lives, and it produces the usage truth that makes any later SMP purchase
