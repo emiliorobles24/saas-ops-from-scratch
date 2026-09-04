@@ -55,7 +55,9 @@ saas-ops-from-scratch/
 │   │                          # governance-at-creation (the intake-form pattern)
 │   ├── renewal-calendar.md    # T-90/T-60/T-30 cadence, notice deadlines,
 │   │                          # the monthly utilization review
-│   └── audit-evidence.md      # Evidence as a repeatable, verifiable motion
+│   ├── audit-evidence.md      # Evidence as a repeatable, verifiable motion
+│   └── handoff.md             # The follow-the-sun handoff: shift notes, severity
+│                              # carryover, and the coverage matrix
 ├── automations/
 │   ├── seat_report.py         # Utilization across the estate + reclaim candidates
 │   ├── renewal_radar.py       # Renewal windows + notice deadlines + true-up prep
